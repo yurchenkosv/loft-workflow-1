@@ -1,8 +1,3 @@
-.sprite {
-    background-image: url(spritesheet.png);
-    background-repeat: no-repeat;
-    display: block;
-}
 
 .sprite-dopO {
     width: 26px;
@@ -10,29 +5,6 @@
     background-position: -5px -5px;
 }
 
-.sprite-fb_active {
-    width: 47px;
-    height: 47px;
-    background-position: -5px -47px;
-}
-
-.sprite-fb_unactive {
-    width: 47px;
-    height: 47px;
-    background-position: -5px -104px;
-}
-
-.sprite-hub_active {
-    width: 47px;
-    height: 47px;
-    background-position: -5px -161px;
-}
-
-.sprite-hub_unactive {
-    width: 47px;
-    height: 47px;
-    background-position: -5px -218px;
-}
 
 .sprite-locked {
     width: 20px;
@@ -64,32 +36,52 @@
     background-position: -5px -417px;
 }
 
-.sprite-tw_active {
-    width: 47px;
-    height: 47px;
-    background-position: -5px -447px;
-}
-
-.sprite-tw_unactive {
-    width: 47px;
-    height: 47px;
-    background-position: -5px -504px;
-}
-
-.sprite-vk_active {
-    width: 47px;
-    height: 47px;
-    background-position: -5px -561px;
-}
-
-.sprite-vk_unactive {
-    width: 47px;
-    height: 47px;
-    background-position: -5px -618px;
-}
 
 .sprite-vo {
     width: 41px;
     height: 23px;
     background-position: -5px -675px;
+}
+
+
+
+div.social{
+    
+}
+
+div.social a{
+    margin-right: 24px;
+    padding-left: 47px;
+    padding-bottom: 30px;
+}
+.social a[href^="http://vk.com"]{
+    background: url(../images/sprites/spritesheet.png) -5px -618px no-repeat;
+    
+}
+
+.social a[href^="http://twitter.com"]{
+    background: url(../images/sprites/spritesheet.png) -5px -504px no-repeat;
+}
+
+.social a[href^="http://github.com"]{
+    background: url(../images/sprites/spritesheet.png) -5px -218px no-repeat;
+}
+.social a[href^="http://facebook.com"]{
+    background: url(../images/sprites/spritesheet.png) -5px -104px no-repeat;
+}
+
+
+.social a[href^="http://vk.com"]:hover{
+    background: url(../images/sprites/spritesheet.png) -5px -561px no-repeat;
+}
+
+.social a[href^="http://twitter.com"]:hover{
+    background: url(../images/sprites/spritesheet.png) -5px -447px no-repeat;
+}
+
+.social a[href^="http://github.com"]:hover{
+    background: url(../images/sprites/spritesheet.png) -5px -161px no-repeat;
+}
+.social a[href^="http://facebook.com"]:hover{
+    background: url(../images/sprites/spritesheet.png) -5px -47px no-repeat;
 }

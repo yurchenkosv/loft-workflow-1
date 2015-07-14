@@ -1,0 +1,26 @@
+body{
+	background-image: url("../images/comppattern2.png");
+	background-repeat: no-repeat;
+	overflow: scroll;
+	min-width: 1400px
+}
+
+header{
+	background-color: #eff3f7;
+	height: 78px;
+	padding: 40px 0 0 10%;
+}
+
+.logo{
+	padding-left:242px;
+	padding-top:42px;
+	background-image: url("../images/logo.png");
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.social{
+	display: inline-block;
+    float: left;
+    margin: -4px 0 0 55%;
+}
