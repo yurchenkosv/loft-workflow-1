@@ -1,0 +1,8 @@
+{
+  "name": "workflow-1-dz",
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5",
+    "normalize.css": "~3.0.3"
+  }
+}
