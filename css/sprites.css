@@ -53,5 +53,15 @@
      background: url(../images/sprites/spritesheet.png) -5px -712px no-repeat;
 }
 .study_cources{
-     background: url(../images/sprites/spritesheet.png) -5px 5px no-repeat;
+     background: url(../images/sprites/spritesheet.png)  0px 5px no-repeat;
+}
+
+.contact_item a[href^="mailto:"]{
+    background: url(../images/sprites/spritesheet.png) -5px -317px no-repeat;
+}
+.contact_item a[href^="tel:"]{
+    background: url(../images/sprites/spritesheet.png) -5px -387px no-repeat;
+}
+.contact_item a[href^="skype:"]{
+    background: url(../images/sprites/spritesheet.png) -5px -417px no-repeat;
 }

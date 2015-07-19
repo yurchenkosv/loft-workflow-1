@@ -2,6 +2,7 @@
 	background-color: #eff3f7;
 	border-radius: 5px;
 	padding-bottom: 40px;
+	color: #4a545d;
 }
 
 .about_header{
@@ -19,6 +20,7 @@
 .about img{
 	border-radius: 50%;
 	border: 5px solid #3ba8c0;
+	float:left;
 }
 
 
@@ -36,7 +38,7 @@
 
 .aboutlist_item{
 	margin-bottom: 20px;
-	color: #37424d;
+	color: #4a545d;
 }
 
 .knowleges{
@@ -68,7 +70,12 @@
 	background-color: #eff3f7;
 	border-radius: 5px;
 	margin-top: 25px;
-	padding-bottom: 40px; 
+	padding-bottom: 20px; 
+	color: #4a545d;
+	font-weight: bold;
+}
+.description{
+	font-weight: normal;
 }
 
 .worklist{
@@ -78,22 +85,31 @@
 	display: inline-block;
 	padding-left: 47px;
 	margin-left: 20px;
+	margin-bottom: 20px;
 }
 
 .study{
 	background-color: #eff3f7;
 	border-radius: 3px;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 	margin-top:25px;
+	color: #4a545d;
+	font-weight: bold;
 }
 
 .studylist{
 	list-style: none;
 }
 
+p{
+	padding:0;
+	margin:0;
+}
+
 .studylist_item{
 	padding-left: 47px;
 	margin-left: 20px;
+	margin-bottom: 20px
 }
 
 .gradient_border{

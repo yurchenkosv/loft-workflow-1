@@ -13,9 +13,8 @@
 
 .navig a{
 	text-decoration: none;
-	font-family: Arial Helvetica sans-serif;
 	font-size: 24px;
-	color: black;
+	color: #4a545d;
 	border-bottom: 2px solid #3ba8c0;
 	display: block;
 }
@@ -44,4 +43,44 @@
 
 .no_border{
 	border-bottom: 
+}
+
+.contacts{
+	margin-top: 25px;
+}
+
+.contact{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	background-color: #3ba8c0;
+	border-radius: 5px;
+}
+
+.contact_item{
+	padding-left: 42px;
+	padding-top: 10px;
+	min-height: 40px; 
+}
+.phone{
+	background-color: #48cbe8;
+}
+.mail{
+	background-color: #41b9d4;
+}
+.skype{
+	background-color: #51daf8;
+}
+.contact_item a{
+	color: white;
+	padding-left: 40px;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.contact .contact_item:first-child{
+	color: white;
+	min-height: 0;
+	font-size: 24px;
+	padding:10px 0 10px 20px;
 }

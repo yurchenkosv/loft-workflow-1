@@ -1,7 +1,7 @@
 body{
 	background-image: url("../images/comppattern2.png");
 	overflow: scroll;
-	min-width: 1400px
+	min-width: 1400px;
 }
 
 .header{
@@ -31,6 +31,7 @@ body{
 	width: 100%;
 	bottom: 0;
 	margin-top: 40px;
+	font-family: fira_sansbook, Arial, sans-serif;
 }
 
 .enter{
@@ -49,11 +50,13 @@ body{
 
 .main{
 	margin: 40px 0 0 25%;
+	font-family: fira_sansbook, Arial, sans-serif;
 }
 
 .left_sidebar{
 	display: inline-block;
 	float: left;
+
 }
 
 
