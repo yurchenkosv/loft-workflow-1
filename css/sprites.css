@@ -1,61 +1,11 @@
 
-.sprite-dopO {
-    width: 26px;
-    height: 32px;
-    background-position: -5px -5px;
-}
-
-
-.sprite-locked {
-    width: 20px;
-    height: 32px;
-    background-position: -5px -275px;
-}
-
-.sprite-mail {
-    width: 21px;
-    height: 16px;
-    background-position: -5px -317px;
-}
-
-.sprite-package {
-    width: 36px;
-    height: 34px;
-    background-position: -5px -343px;
-}
-
-.sprite-phone {
-    width: 20px;
-    height: 20px;
-    background-position: -5px -387px;
-}
-
-.sprite-skype {
-    width: 20px;
-    height: 20px;
-    background-position: -5px -417px;
-}
-
-
-.sprite-vo {
-    width: 41px;
-    height: 23px;
-    background-position: -5px -675px;
-}
-
-
-
-div.social{
-    
-}
-
 div.social a{
     margin-right: 24px;
     padding-left: 47px;
     padding-bottom: 30px;
 }
 .social a[href^="http://vk.com"]{
-    background: url(../images/sprites/spritesheet.png) -5px -618px no-repeat;
+    background: url(../images/sprites/spritesheet.png) -5px -660px no-repeat;
     
 }
 
@@ -72,7 +22,7 @@ div.social a{
 
 
 .social a[href^="http://vk.com"]:hover{
-    background: url(../images/sprites/spritesheet.png) -5px -561px no-repeat;
+    background: url(../images/sprites/spritesheet.png) -5px -603px no-repeat;
 }
 
 .social a[href^="http://twitter.com"]:hover{
@@ -84,4 +34,24 @@ div.social a{
 }
 .social a[href^="http://facebook.com"]:hover{
     background: url(../images/sprites/spritesheet.png) -5px -47px no-repeat;
+}
+
+
+.enter{
+    background: url(../images/sprites/spritesheet.png) -5px -275px  no-repeat;
+}
+.enter:hover{
+    background: url(../images/sprites/spritesheet.png) -5px -561px no-repeat;
+}
+
+.worklist_item{
+    background: url(../images/sprites/spritesheet.png) -5px -335px no-repeat;
+    
+}
+
+.study_vpo{
+     background: url(../images/sprites/spritesheet.png) -5px -712px no-repeat;
+}
+.study_cources{
+     background: url(../images/sprites/spritesheet.png) -5px 5px no-repeat;
 }

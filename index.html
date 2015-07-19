@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru-RU">
 <head>
 	<meta charset="UTF-8">
 	<title>first dz</title>
+	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/sprites.css">
-	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/navigation.css">
+	<link rel="stylesheet" href="css/content.css">
 </head>
 <body>
-	<header> 
+	<header class="header"> 
 		<div class="logo"></div>
 		<div class="social">
 			<a href="http://vk.com"></a>
@@ -18,17 +20,78 @@
 		</div>
 	</header>
 	<div class="main">
-		<div class="nav">
-			<ul class="navig">
-				<li><a href="#">Lorem ipsum dolor.</a></li>
-				<li><a href="#">Eius, libero, distinctio.</a></li>
-				<li><a href="#">Sit, ipsa, expedita.</a></li>
-			</ul>
+		<div class="left_sidebar">
+			<div class="nav">
+				<ul class="navig">
+					<a href="#"><li>Lorem ipsum dolor.</li></a>
+					<a href="#"><li>Eius, libero, distinctio.</li></a>
+					<a href="#"><li>Sit, ipsa, expedita.</li></a>
+				</ul>
+			</div>
+			<div class="contacts"></div>
 		</div>
-		<div class="contacts"></div>
-		<div class="about"></div>
-		<div class="work"></div>
-		<div class="study"></div>
+		<div class="content">
+			<div class="about">
+				<h2 class="about_header">Основная информация</h2>
+				<div class="about_body">
+					<img src="images/me.jpg" alt="Мое фото" width="152">
+					<ul class="aboutlist">
+						<li class="aboutlist_item">
+							<span class="bold_text">Меня зовут:</span>
+							Юрченко Станислав Вадимович
+						</li>
+						<li class="aboutlist_item">
+							<span class="bold_text">Мой возраст:</span>
+							 24 года
+						</li>
+						<li class="aboutlist_item">
+							<span class="bold_text">Мой город:</span>
+							Краснодар
+						</li>
+						<li class="aboutlist_item">
+							<span class="bold_text">Ключевые навыки:</span>
+							<span class="knowleges">HTML</span>
+							<span class="knowleges">CSS</span>
+							<span class="knowleges">JavaScript</span>
+							<span class="knowleges">gulp</span>
+							<span class="knowleges">Git</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="work">
+				<h2 class="about_header">Опыт работы</h2>
+				<ul class="worklist">
+					<li class="worklist_item">
+						<p>"ИП Боровицкий" - Продавец дисков</p>
+						<span class="work_description">Сентябрь 2005-Август 2008</span>
+					</li>
+					<li class="worklist_item">
+						<p>"ООО Системы безопасности" - Системный администратор</p>
+						<span class="work_description">Июнь 2008 - Июль 2010</span>
+					</li>
+				</ul>
+			</div>
+			<div class="study">
+				<h2 class="about_header">Образование</h2>
+				<ul class="studylist">
+					<li class="studylist_item study_vpo">
+						<p>Неоконченное высшее - СПБГУ ИТМО</p>
+						Октябрь 2012 - по настоящее время
+					</li>
+					<li class="studylist_item study_cources">
+						<p>Курсы Loftschool.ru</p>
+						Июль 2015 - по настоящее время
+					</li>
+				</ul>
+			</div>
+		</div>
 	</div>
+	<footer class="footer">
+		<div class="enter"></div>
+		<div class="copy">
+			<p> &copy Это сайт Станислава Юрченко. Пожалуйста, не воруйте его. :)</p>
+		</div>
+	</footer>
 </body>
 </html>	

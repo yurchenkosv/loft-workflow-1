@@ -1,11 +1,10 @@
 body{
 	background-image: url("../images/comppattern2.png");
-	background-repeat: no-repeat;
 	overflow: scroll;
 	min-width: 1400px
 }
 
-header{
+.header{
 	background-color: #eff3f7;
 	height: 78px;
 	padding: 40px 0 0 10%;
@@ -23,4 +22,42 @@ header{
 	display: inline-block;
     float: left;
     margin: -4px 0 0 55%;
+}
+
+.footer{
+	background-color: #eff3f7;
+	height: 78px;
+	width: 100%;
+	bottom: 0;
+	margin-top: 40px;
+	padding-top: 40px;
+}
+
+.enter{
+	margin-left: 10%;
+    padding-top: 32px;
+    float: left;
+    width:21px;
+}
+
+.copy{
+	margin-left: 30%;
+	float:left;
+}
+
+
+.main{
+	margin: 40px 0 0 18%;
+}
+
+.left_sidebar{
+	display: inline-block;
+	float: left;
+}
+
+
+.content{
+	display: inline-block;
+	margin-left: 40px;
+	width:650px;
 }

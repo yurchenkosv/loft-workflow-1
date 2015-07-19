@@ -1,0 +1,66 @@
+.about{
+	background-color: #eff3f7;
+	border-radius: 5px;
+}
+
+.about_header{
+  margin: 0;
+  padding: 0 20px 0 20px;
+  display: inline-block;
+  line-height: 67px;
+  border-bottom: 2px solid #3ba8c0;
+  color: #3ba8c0;
+}
+.about_body{
+	padding-left: 55px;
+  	padding-top: 18px; 
+}
+.about img{
+	border-radius: 50%;
+	border: 5px solid #3ba8c0;
+}
+
+
+.aboutlist{
+	 display: inline-block;
+	 vertical-align: top;
+	 list-style: none;
+}
+
+.bold_text{
+	font-weight: bold;
+}
+
+.aboutlist_item{
+	margin-bottom: 20px;
+	color: #37424d;
+}
+
+.work{
+	background-color: #eff3f7;
+	border-radius: 5px;
+	margin-top: 25px;
+}
+
+.worklist{
+	list-style: none;
+}
+.worklist_item{
+	display: inline-block;
+	padding-left: 47px;
+	margin-left: 20px;
+}
+
+.study{
+	background-color: #eff3f7;
+	border-radius: 3px;
+	padding-bottom: 15px;
+}
+
+.studylist{
+	list-style: none;
+}
+
+.studylist_item{
+	padding-left: 47px;
+}
